@@ -1,1 +1,6 @@
-premier post
+---
+layout: home
+title: "Home"
+author_profile: true
+---
+
