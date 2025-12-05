@@ -1,3 +1,30 @@
 title: "My Blog"
-description: "Welcome to my GitHub Pages blog"
-theme: jekyll-theme-minimal
+description: "Welcome to my Minimal Mistakes blog"
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+
+plugins:
+  - jekyll-include-cache
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-sitemap
+
+markdown: kramdown
+paginate: 5
+paginate_path: "/page:num/"
+
+# Theme settings
+minimal_mistakes_skin: "dark"  # choose: default, air, contrast, dark, dirt, mint, neon, sunrise
+
+collections:
+  posts:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
