@@ -30,8 +30,8 @@ defaults:
 # Navigation
 header:
   nav:
-    main:
-      - title: "Home"
-        url: /
-      - title: "A propos"
-        url: /about/
+    - title: "Home"
+      url: /
+    - title: "A propos"
+      url: /about/
+
