@@ -28,9 +28,10 @@ defaults:
       author_profile: true
       read_time: true
 # Navigation
-nav:
-  main:
-    - title: "Home"
-      url: /
-    - title: "A propos"
-      url: /about/
+header:
+  nav:
+    main:
+      - title: "Home"
+        url: /
+      - title: "A propos"
+        url: /about/
