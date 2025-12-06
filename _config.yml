@@ -1,6 +1,11 @@
 title: "MOUSSA STORY"
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 
+masthead:
+  layout: "default"
+  title: "MOUSSA STORY"
+  nav: true
+
 plugins:
   - jekyll-include-cache
   - jekyll-paginate
